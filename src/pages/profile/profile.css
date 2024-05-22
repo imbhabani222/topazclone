@@ -1,0 +1,67 @@
+.profile-container{
+  background-color: #ffffff;
+  padding: 10px 40px;
+}
+.profile-container .ant-tabs {
+  color: #292C39;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+.profile-container .ant-tabs-tab{
+  font-size: 16px;
+  padding: 22px 0;
+}
+.profile-container .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #272C39;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: none;
+}
+
+.profile-container .ant-tabs-tab:hover {
+  color: #292C39;
+}
+
+/* .profile-container .ant-divider{
+  width: 1126px;
+  height: 0px;
+  left: 205px;
+  top: 313px;
+} */
+/* #profile-divider{
+  border: 1px solid #D6D6D6;
+} */
+/* #para{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 700;
+  font-style: normal;
+  color: #272C39;
+} */
+/* .profile-header-divider{
+  border: 1px solid #D6D6D6;
+  margin-top: 17px;
+  margin-bottom: 17px;
+} */
+
+.profile-container .ant-tabs-top > .ant-tabs-nav, .ant-tabs-bottom > .ant-tabs-nav, .ant-tabs-top > div > .ant-tabs-nav, .ant-tabs-bottom > div > .ant-tabs-nav {
+  margin-bottom: 0px;
+}
+
+.profile-container .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar, .ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 4px;
+  width: 68px;
+}
+
+@media (min-width: 256px) and (max-width: 576px){
+  .profile-container{
+    padding: 10px;
+    margin: 1rem;
+  }
+  main.ant-layout-content.site-layout-background.custom-scrollbar {
+    overflow-x: hidden;
+  }
+}

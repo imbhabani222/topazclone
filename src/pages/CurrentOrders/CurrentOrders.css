@@ -1,0 +1,165 @@
+
+.ant-table-pagination.ant-pagination{
+  margin: 1rem 0 2.5rem 0;
+}
+.current-order .ant-form-item-control-input-content {
+  text-align: right;
+  max-width: 146px;
+}
+
+.current-order .ant-form-item-label > label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+}
+
+.current-order .tbody {
+  display: table-row-group;
+  vertical-align: center;
+  border-color: inherit;
+}
+.current-order .ant-picker {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.current-order {
+  padding-top: 1.5rem;
+}
+.order-col {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.search-orders {
+  border: 1px solid #b9bfd7;
+  border-radius: 4px;
+}
+
+.order-search-Col
+  .ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button {
+  border: 0px;
+}
+
+.search-orders .ant-input {
+  border: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.search-orders .ant-input:focus,
+.ant-input-focused {
+  box-shadow: 0 0 0 0px #ffffff;
+}
+
+.current-order-table .ant-table-thead > tr > th {
+  background-color: #edf0f1;
+  color: #000000;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* .current-order-table .ant-table-thead > tr > th,
+.ant-table tfoot > tr > th {
+  padding-top: 13px;
+  padding-bottom: 13px;
+} */
+
+.current-order-table .ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  height: 50px;
+}
+
+.current-order-table .ant-table-tbody > tr > td {
+  transition: 0px;
+  border-bottom: 1px solid #d5d5d7;
+}
+
+.current-order-table .ant-table {
+  background-color: #fbfbfb;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.current-order-table .ant-tag,
+.ant-tag a,
+.ant-tag a:hover {
+  color: #ffffff;
+  width: 131px;
+  height: 23px;
+  border-radius: 2px;
+}
+
+.current-order-table .ant-tag {
+  text-align: center;
+}
+
+.current-order-table a {
+  color: #0a7ca7;
+}
+
+.current-order-table .ant-table-tbody > tr > td {
+  transition: 0px;
+  border-bottom: 1px solid #d5d5d7;
+}
+.arrow {
+  padding-top: 5px;
+  float: right;
+}
+.current-order-green {
+  background-color: #008000;
+  border: 1px solid #008000;
+  border-radius: 2px;
+}
+.current-order-red {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 2px;
+}
+
+.current-order-pink {
+  background-color: #f26767;
+  border: 1px solid #f26767;
+  border-radius: 3px;
+}
+
+.current-order-blue {
+  background: #00adef;
+  border: 1px solid #00adef;
+  border-radius: 3px;
+}
+
+.current-order-yellow {
+  background: #ffbf00;
+  border: 1px solid #ffbf00;
+  border-radius: 3px;
+}
+
+@media (min-width: 1450px) {
+  .ant-col-xl-5 {
+    display: block;
+    flex: 0 0 16.833333%;
+    max-width: 20.83333333%;
+  }
+
+  .order-col {
+    margin-right: 6%;
+  }
+}

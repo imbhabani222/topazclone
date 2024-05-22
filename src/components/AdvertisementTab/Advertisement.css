@@ -1,0 +1,358 @@
+.bannerPreview {
+  background-color: #fff;
+  border-radius: 5px;
+  padding-top: 0px;
+  padding-left: 10%;
+  padding-right: 12%;
+  position: relative;
+}
+
+.Advertisementcontainer .bannerPreview {
+  padding-right: 8%;
+}
+.top-left {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fa851a;
+}
+.top-left1 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #2d1f1f;
+  width: 345px;
+}
+.bannerPreview img {
+  width: 100%;
+  /* height: 163px; */
+  object-fit: cover;
+  border-radius: 5px;
+}
+.bannerPreview .ant-card {
+  border: none;
+}
+.bannerPreview .ant-card-body {
+  padding: 10px;
+}
+.uploadTitle h3 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  color: #000000;
+}
+.uploadTitle p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  padding-right: 10%;
+  color: #817777;
+  text-align: left;
+}
+.AdvertisementTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  color: #292c39;
+  margin-bottom: 20px;
+}
+.Advertisementcontainer {
+  background-color: #ffffff;
+  padding: 30px 40px;
+}
+.adform {
+  padding-left: 20px;
+}
+
+/* .ant-tooltip-inner {
+  display: none;
+} */
+.nextbtn {
+  background: #00adef;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 6rem;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom:.5rem;
+}
+
+
+.advert-saveBtn {
+  width: 6rem;
+  height: 40px;
+  background: #00adef;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.advert-cancel {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0a7ca7;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0a7ca7;
+}
+
+/* .ant-upload-list-picture-card .ant-upload-list-item-error {
+  border-color: green !important;
+} */
+
+.advetisement-cacel-button {
+  width: 6rem;
+  height: 33px;
+  border: 1px solid #0a7ca7;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #0a7ca7;
+}
+
+.advertisement-cancel-button .ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  border: 1px solid #0a7ca7;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #0a7ca7;
+}
+
+.advertisement-sumbit-buttonn {
+  background: #00adef;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 6rem;
+}
+
+.submitt .ant-btn:not([disabled]):hover {
+  background: #00adef;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* .radiocss .ant-radio-wrapper {
+  display: inline-flex;
+} */
+.radiocss .ant-form-item-control-input-content {
+  /* flex: auto; */
+  max-width: 100%;
+}
+/* .radiobtn .ant-radio {
+  margin-right: 10px;
+} */
+.Radio-btn {
+  margin-left: -6%;
+  padding: 0px 7px;
+}
+.radioGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.preview-title {
+  color: #00adef;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: left;
+  text-justify: newspaper;
+}
+.preview-description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #095198;
+  text-align: left;
+  margin-left: 4%;
+  text-align: left;
+  text-justify: newspaper;
+  word-break: break-all;
+  
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.ant-picker-cell  .ant-picker-cell-inner {
+ 
+  padding-left: 0px !important;
+  text-align: center !important;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.Advertisementcontainer .ant-upload-list.ant-upload-list-picture-card ,.add_product_form .ant-upload-list.ant-upload-list-picture-card ,.editAdvertisementModal .ant-upload-list.ant-upload-list-picture-card,.view-product-container .ant-upload-list.ant-upload-list-picture-card,.add-category-container .ant-upload-list.ant-upload-list-picture-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.Advertisementcontainer .ant-upload-list-picture-card-container{
+  order: 3;
+  margin-top:30px;
+}
+.editAdvertisementModal .ant-upload-list-picture-card-container ,.add_product_form .ant-upload-list-picture-card-container,.view-product-container .ant-upload-list-picture-card-container,.add-category-container .ant-upload-list-picture-card-container{
+  order: 3;
+  margin-top: 5px;
+}
+
+.Advertisementcontainer a[title="Preview file"]{
+  display: none;
+}
+ 
+
+.editAdvertisementModal .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.editAdvertisementModal .ant-modal-body {
+  padding: 15px 27px;
+}
+
+.Advertisementcontainer .ant-upload-text{
+  display: block;
+  text-align: left;
+}
+
+.editAdvertisementModal .offer-divide-button {
+  border: 1px solid #d6d6d6;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  border-top: 0;
+}
+
+.editAdvertisementModal .ant-form-item.uploadItemModal {
+  margin-bottom: 0;
+}
+
+.editAdvertisementModal .ant-form-vertical .ant-form-item-label{
+  padding: 0 0 4px;
+}
+
+.ant-modal.editAdvertisementModal {
+  max-width:760px;
+}
+
+.editAdvertisementModal .ant-modal-close {
+  right: 15px;
+}
+
+.editAdvertisementModal .ant-upload.ant-upload-select-picture-card {
+  width: 100%;
+  height: 100%;
+
+}
+
+.editAdvertisementModal  .ant-btn[title="Remove file"] {
+  width: auto;
+  height: auto;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.editAdvertisementModal a[title="Preview file"]{
+  display: none;
+}
+
+.editAdvertisementModal .ant-upload-list-picture-card .ant-upload-list-item-error,.view-product-container .ant-upload-list-picture-card .ant-upload-list-item-error, .add-category-container .ant-upload-list-picture-card .ant-upload-list-item-error,.add_product_form .ant-upload-list-picture-card .ant-upload-list-item-error,.Advertisementcontainer .ant-upload-list-picture-card .ant-upload-list-item-error{
+  border-color: #f0f0f0;
+}
+
+@media (max-width: 576px) {
+  .adv-btn {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .Advertisementcontainer {
+    padding: 30px 0;
+  }
+
+  .advetisement-cacel-button {
+    margin-top: 12px;
+  }
+  .radiocss .ant-radio-wrapper {
+    display: block;
+  }
+  .radiobtn .ant-radio {
+    margin-right: 10px;
+  }
+}
+/* @media (min-width: 250px) and (max-width: 576px) { */
+
+.text-styles {
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+.offers-cnainer .start .ant-form-item-label > label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #292c39;
+  font-weight: bold;
+}
+.offers-cnainer .datelabel .ant-form-item-label > label {
+  font-size: 16px;
+}
+
+
+.preview-description table{
+  border: 1px double #b3b3b3;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.preview-description table td, .preview-description table th {
+  border: 1px solid #bfbfbf;
+  min-width: 2em;
+  padding: 0.4em;
+}

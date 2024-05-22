@@ -1,0 +1,432 @@
+.onbord_pannel1 {
+  width: 100%;
+  min-height: auto;
+  background-color: #fff;
+}
+.onboardForm {
+  width: 100%;
+}
+
+.onboardForm .ant-input-group-addon {
+  padding-right: 0px;
+}
+
+.onboardCol {
+  margin: 0 4% 0 0;
+}
+.save_button.ant-btn-primary {
+  color: #ffffff;
+  font-family: "Lato";
+  border-color: #00adef;
+  background: #00adef;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* .save_button .ant-btn-primary {
+  color: #ffffff;
+  font-family: "Lato";
+  border-color: #00adef;
+  background: #00adef;
+  text-shadow: none;
+  box-shadow: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 15px;
+} */
+
+.onboardForm .ant-input-group-addon:first-child {
+  border: 1px solid #b9bfd7;
+  border-radius: 5px 0 0 5px;
+  border-right: 0;
+  background-color: transparent;
+}
+
+.country-code .ant-input-group-addon:first-child {
+  border: 1px solid #ff4d4f;
+  border-right: none;
+}
+
+.onboardForm .ant-input-group > .ant-input:last-child,
+.ant-input-group-addon:last-child {
+  border-left: 0;
+  padding-bottom: 6px;
+}
+.onboardForm .ant-form-item-control-input-content {
+  text-align: right;
+}
+
+.onboardForm
+  .ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.ant-form-item-explain-error {
+  text-align: left;
+}
+/* .onboardForm{
+  height: 115vh;
+
+} */
+.onboard-con .onboardForm .ant-form-item-label > label {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #272c39;
+}
+
+.onboardForm .ant-form-item-label > label::after {
+  margin: 0 11px 0 4px;
+}
+
+.onboardForm .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+}
+.onboardForm .ant-input[disabled] {
+  color: black;
+}
+.onboardForm .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+  text-align: left;
+}
+.uploadk .ant-upload.ant-upload-select {
+  display: grid;
+  width: 100%;
+}
+.uploadk .ant-btn > span {
+  display: table-row;
+}
+.onboardManufacturer .uploadk .ant-btn {
+  width: auto;
+  height: auto;
+}
+.uploadk .ant-btn {
+  /* width: 70px;
+  height: 70px;
+  background: #ffffff; */
+  z-index: 0;
+  margin: 0 10px;
+}
+.onboardForm .uploadk .ant-form-item-control-input-content {
+  text-align: left;
+}
+
+.uploadk .ant-upload .ant-upload {
+  display: flex;
+  align-items: center;
+}
+
+.uploadk .ant-upload {
+  background: #f5f5f5;
+  border-radius: 5px;
+  border: none;
+}
+.uploadk .ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #756e6e;
+}
+.uploadk .ant-upload .anticon-plus {
+  color: #ac9e9e;
+  font-size: 20px;
+}
+.uploadk .ant-upload .ant-upload {
+  padding: 12px 10px 12px;
+}
+.onboardForm .ant-upload p.ant-upload-text {
+  margin: 0 0 4px 0px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 16px;
+}
+.onbordTitle h3 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+  color: #292c39;
+}
+.stepsCustomClass
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon {
+  background: #00adef;
+}
+.stepsCustomClass .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #fff;
+  border: 2px solid #048cbf;
+}
+.stepsCustomClass .ant-steps-item-icon {
+  width: 49px;
+  height: 49px;
+  padding: 6px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 700;
+}
+.stepsCustomClass .ant-steps-item-title {
+  line-height: 40px;
+}
+.stepsCustomClass .ant-steps-item-title::after {
+  top: 20px;
+  background-color: #cac2c2 !important;
+}
+.stepsCustomClass .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #3cb348;
+  border: 2px solid #28941e;
+}
+.stepsCustomClass
+  .ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon {
+  color: #fff;
+}
+
+.stepsCustomClass
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #272c39;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.stepsCustomClass
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title::after {
+  background-color: #cac2c2;
+  width: 100%;
+}
+
+.stepsCustomClass .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: #b4abab;
+}
+
+.stepsCustomClass
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #615959;
+}
+
+@media only screen and (max-width: 479px) {
+  .onbord_pannel1 {
+    width: 100%;
+    min-height: auto;
+    background-color: #fff;
+    padding: 0px 0 10px 0;
+  }
+  .onboardForm {
+    padding: 0px 10px;
+  }
+
+  .onboardForm .ant-input-group-addon {
+    padding-right: 0px;
+  }
+
+  .onboardCol {
+    margin: 0 4% 0 0;
+  }
+  .onboardForm .ant-btn-primary {
+    color: #ffffff;
+    font-family: "Lato";
+    border-color: #00adef;
+    background: #00adef;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  .onboardForm .ant-input-group-addon:first-child {
+    border: 1px solid #b9bfd7;
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+    background-color: transparent;
+  }
+
+  .country-code .ant-input-group-addon:first-child {
+    border: 1px solid #ff4d4f;
+    border-right: none;
+  }
+
+  .onboardForm .ant-input-group > .ant-input:last-child,
+  .ant-input-group-addon:last-child {
+    border-left: 0;
+  }
+  .onboardForm .ant-form-item-control-input-content {
+    text-align: right;
+  }
+
+  .divider-onboard-header {
+    border-bottom: 1px solid #d6d6d6;
+    margin: 26px 0 30px 0px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 50%;
+  }
+
+  .onboardForm
+    .ant-select-single:not(.ant-select-customize-input)
+    .ant-select-selector {
+    padding-left: 8px;
+    padding-right: 6px;
+  }
+
+  .ant-form-item-explain-error {
+    text-align: left;
+  }
+
+  .divider {
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .onboard-con .onboardForm .ant-form-item-label > label {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #272c39;
+    white-space: nowrap;
+  }
+
+  .onboardForm .ant-form-item-label > label::after {
+    margin: 0 11px 0 4px;
+  }
+
+  .onboardForm .ant-input {
+    background: #ffffff;
+    border: 1px solid #b9bfd7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 35px;
+  }
+  .onboardForm
+    .ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    background: #ffffff;
+    border: 1px solid #b9bfd7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 35px;
+    text-align: left;
+  }
+  .uploadk .ant-upload.ant-upload-select {
+    display: grid;
+  }
+  .uploadk .ant-btn > span {
+    display: table-row;
+  }
+  .uploadk .ant-btn {
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    z-index: 9;
+    margin: 0 10px;
+  }
+
+  .onboardForm .uploadk .ant-form-item-control-input-content {
+    text-align: left;
+  }
+
+  .dividers {
+    border-bottom: 1px solid #d6d6d6;
+    margin: 30px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .uploadk .ant-upload .ant-upload {
+    display: flex;
+  }
+
+  .uploadk .ant-upload {
+    background: #f5f5f5;
+    border-radius: 5px;
+    border: none;
+  }
+  .uploadk .ant-btn > .anticon + span,
+  .ant-btn > span + .anticon {
+    margin-left: 8px;
+    font-size: 11px;
+    color: #756e6e;
+  }
+  .uploadk .ant-upload .anticon-plus {
+    color: #ac9e9e;
+    font-size: 20px;
+  }
+  .uploadk .ant-upload .ant-upload {
+    padding: 12px 10px 12px;
+  }
+  .onboardForm .ant-upload p.ant-upload-text {
+    margin: 0 0 4px 0px;
+    text-align: left;
+    font-size: 12px;
+  }
+  .onbordTitle h3 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 0;
+    color: #292c39;
+  }
+  .ant-steps-vertical > .ant-steps-item .ant-steps-item-icon {
+    margin-right: 16px;
+  }
+
+  .onboard-save-and-continue {
+    text-align: right;
+  }
+  .uploadk {
+    margin-top: 10px;
+  }
+  .onboard-con
+    .onboardForm
+    .onboard-save-and-continue
+    .save_button
+    .ant-btn-primary {
+    font-size: 15px;
+    height: 40px;
+    font-weight: 700;
+    width: 166px;
+    margin-top: 15px;
+
+    color: #fff;
+    border-color: #00adef;
+    background: #00adef;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+  .divider-onboard-header .divider {
+    width: 50%;
+    height: 0px;
+    border: 0.5px solid #d6d6d6;
+    margin-bottom: 30px;
+  }
+}
+.stepsCustomClass .ant-steps {
+  padding-bottom: 30px;
+}

@@ -1,0 +1,381 @@
+
+.offers-cnainer .ant-form-item-label > label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #292c39;
+}
+.buttonAlignment {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+.label-and-heading .ant-form-item-label > label {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+.offers-cnainer .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.offers-cnainer .ant-form-item {
+  margin-bottom: 26px;
+}
+
+.offers-date .ant-form-item {
+  margin-bottom: 40px;
+}
+
+.offers-date .ant-picker {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.offers-image .ant-btn {
+  width: 72px;
+  height: 63px;
+  /* background: #ffffff; */
+  z-index: 9;
+  margin: 0 19px 0 10px;
+}
+
+.alleft {
+  text-align: left;
+  width: 17px;
+  height: 17px;
+  border-radius: 2px;
+}
+
+.description-col .ant-input {
+  height: 16vh;
+}
+
+.offers-image .ant-btn > span {
+  display: table-row;
+}
+
+/* .offers-image .ant-upload.ant-upload-drag .ant-upload-drag-container {
+    display: flex;
+  } */
+
+.offers-image .ant-upload {
+  display: flex;
+}
+
+.image-upload-side-text {
+  font-family: "Lato";
+  text-align: left;
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* .offers-image .ant-upload.ant-upload-drag p.ant-upload-text {
+    margin: 0 0 4px 0px;
+    text-align: left;
+    font-size: 13px;
+    padding-right: 24%;
+} */
+
+.offers-image .ant-upload p.ant-upload-text {
+  margin: 0 0 4px 0px;
+  text-align: left;
+  font-size: 13px;
+  padding-right: 24%;
+}
+
+/* .offers-image .ant-upload.ant-upload-drag p.ant-upload-text {
+  color: #716E6E;
+} */
+
+.offers-image .ant-upload p.ant-upload-text {
+  color: #716e6e;
+}
+
+.offers-image .ant-upload {
+  background: #f5f5f5;
+  border-radius: 5px;
+  border: none;
+}
+.offers-image .ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #756e6e;
+}
+
+.offers-image .ant-upload .anticon-plus {
+  color: #ac9e9e;
+  font-size: 20px;
+}
+
+.offers-image .ant-upload .ant-upload {
+  padding: 12px 10px 12px;
+}
+
+.offer-product-details {
+  background-color: #f7f5f4;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  padding-top: 23px;
+  padding-left: 10%;
+  padding-right: 12%;
+  width:100%;
+}
+
+.editAdvertisementModal .offer-product-details{
+  width:250px;
+}
+
+.offer-product-details .ant-card-bordered {
+  border-radius: 5px;
+}
+
+.image-header {
+  margin-bottom: 23px;
+}
+
+.text-style {
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+
+
+
+.dates-margin {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.today-offer-header {
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.offer-product-details img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.offeres-dates {
+  text-align: left;
+}
+
+.offer-product-details .ant-card-body {
+  padding: 0px;
+}
+
+.preview-title {
+  color: #00adef;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  text-align: left;
+  text-justify: newspaper;
+}
+
+.preview-description {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #095198;
+  text-align: left;
+  margin-left: 4%;
+  text-align: left;
+  text-justify: newspaper;
+  word-break: break-all
+}
+
+#offer-cancelBtn {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0a7ca7;
+  border-radius: 5px;
+  width: 6rem;
+  height: 40px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0a7ca7;
+  margin-right: -10px;
+}
+.offer-saveBtn {
+  background: #00adef;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  height: 40px;
+  background: #00adef;
+}
+.offer-divide-button {
+  border: 1px solid #d6d6d6;
+  margin-bottom: 15px;
+  border-top: 0;
+}
+
+#offer-saveBtn {
+  background: #00adef;
+  border-radius: 5px;
+}
+
+.offer-BtnCol {
+  text-align: right;
+}
+.offers-cnainer .ant-tooltip-inner {
+  display: none;
+}
+
+.ant-btn-icon-only {
+  width: 32px;
+  height: 32px;
+  padding: 2.4px 0;
+  font-size: 16px;
+  border-radius: 2px;
+  vertical-align: -2px;
+  right: 6%;
+  margin-top: 2px;
+}
+
+.offerForm .ant-upload.ant-upload-select-picture-card{
+  width:100%;
+}
+
+.offerForm .ant-upload-list{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.offerForm a[title="Preview file"]{
+  display: none;
+}
+
+.offerForm .ant-upload-list-picture-card .ant-upload-list-item-info::before {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+  content: ' ';
+}
+
+.offerForm  .offers-image .ant-btn[title="Remove file"] {
+  width: auto;
+  height: auto;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.offerForm .ant-upload-list-picture-card .ant-upload-list-item-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-image-new .ant-upload-list-picture-card .ant-upload-list-item-error {
+  border-color: #f0f0f0;
+}
+
+
+@media screen and (min-width:768px) {
+  form.ant-form.ant-form-vertical.offerForm {
+    margin-left: 30px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .offer-BtnCol {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 230px) and (max-width: 254px) {
+  .offer-button-cancel {
+    margin-left: 18%;
+    margin-bottom: 4px;
+  }
+
+  .offer-button-sumbt {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 256px) and (max-width: 311px) {
+  .offer-button-cancel {
+    margin-left: 4%;
+    margin-bottom: 4px;
+  }
+
+  .offer-button-sumbt {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 312px) and (max-width: 380px) {
+  .offer-button-cancel {
+    margin-top: 4px;
+    margin-left: 18%;
+    margin-bottom: 4px;
+  }
+
+  .offer-button-sumbt {
+    margin-left: 23%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 400px) {
+  .offer-button-cancel {
+    /* margin-left: 18%; */
+    margin-bottom: 4px;
+  }
+
+  /* .offer-button-sumbt { */
+  /* margin-left: 23%; */
+  /* } */
+}
+
+@media (max-width: 576px) {
+  .offer-BtnCol {
+    text-align: center;
+  }
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #00adef;
+}
+.ant-picker-cell .ant-picker-cell-inner {
+  padding-left: 5px;
+}
+.offers-image .ant-tooltip-inner {
+  display: none;
+}
+.offers-image .ant-tooltip {
+  display: none;
+}

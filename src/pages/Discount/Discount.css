@@ -1,0 +1,250 @@
+.discountCol {
+  margin-right: 5%;
+}
+
+.discounts-form .ant-form-item-label > label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #292c39;
+}
+
+.discounts-form .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.discounts-form
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.discounts-form .ant-form-item-control-input-content {
+  text-align: left;
+}
+
+.discount-product-details {
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+  padding: 33px 2% 37px 3%;
+  margin-top: 29px;
+}
+
+.discount-image {
+  text-align: left;
+}
+
+.discount-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.align-product-details {
+  display: flex;
+  text-align: left;
+}
+
+.strike-text {
+  text-decoration: line-through;
+  color: #9098b1;
+  font-family: "Lato";
+  font-size: 12px;
+  margin-right: 4%;
+  font-weight: 400;
+}
+
+.percent-off-text {
+  color: #fb7181;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#product-price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  color: #40bfff;
+}
+
+#per-square-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #223263;
+}
+
+.product-value-margin {
+  margin-left: 3%;
+}
+
+.percent-bar .ant-btn-group {
+  position: relative;
+  display: block;
+  text-align: right;
+}
+
+.product-divide-button {
+  border: 1px solid #d6d6d6;
+  border-top: none;
+}
+
+#product-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  /* line-height: 150%; */
+}
+
+.discount-BtnCol {
+  text-align: right;
+}
+
+#discount-saveBtn {
+  width: 120px;
+  height: 40px;
+  background: #00adef;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.cancelbtn {
+  border: 1px solid #079bd3;
+  background-color: #ffffff;
+  color: #079bd3;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  width: 6rem;
+  height: 40px;
+}
+/* #discount-cancelBtn {
+  background: #ffffff;
+  border: 1px solid #0a7ca7;
+  border-radius: 5px;
+  color: #0a7ca7;
+  width: 6rem;
+} */
+
+.discount-percent-title {
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #292c39;
+}
+.buttonAlignment {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
+}
+.discount-product-details .ant-image {
+  width: 100%;
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  #discount-cancelBtn {
+    background: #ffffff;
+    border: 1px solid #0a7ca7;
+    border-radius: 5px;
+    color: #0a7ca7;
+    width: 6rem;
+    margin-left: 93%;
+  }
+
+  .discount-button-sumbt {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1863px) {
+  #discount-cancelBtn {
+    background: #ffffff;
+    border: 1px solid #0a7ca7;
+    border-radius: 5px;
+    color: #0a7ca7;
+    width: 6rem;
+    margin-left: 93%;
+  }
+
+  .discount-button-sumbt {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 1864px) and (max-width: 2021px) {
+  #discount-cancelBtn {
+    background: #ffffff;
+    border: 1px solid #0a7ca7;
+    border-radius: 5px;
+    color: #0a7ca7;
+    width: 6rem;
+  }
+
+  .discount-button-sumbt {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 2021px) and (max-width: 2643px) {
+  #discount-cancelBtn {
+    background: #ffffff;
+    border: 1px solid #0a7ca7;
+    border-radius: 5px;
+    color: #0a7ca7;
+    width: 6rem;
+    margin-left: 100%;
+  }
+
+  .discount-button-sumbt {
+    margin-left: 4%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .discount-button-cancel {
+    margin-left: 2%;
+    margin-right: 1%;
+  }
+}
+
+@media (max-width: 363px) {
+  .discount-button-cancel {
+    margin-left: 28%;
+    margin-right: 11%;
+    margin-bottom: 4px;
+  }
+  .discount-button-sumbt {
+    margin-left: 28%;
+  }
+}
+
+@media (max-width: 576px) {
+  .discount-BtnCol {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+}
+.listCol {
+  margin-right: 4%;
+}

@@ -1,0 +1,54 @@
+.main-container {
+  background-color: #ffffff;
+  padding: 20px 30px;
+
+}
+
+.container-dash {
+  position: relative;
+  min-width: 0;
+  height: 31.99rem;
+  width: 100%;
+  align-content: center;
+  background: #ffffff;
+  border: 1px solid #daddeb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: left;
+  left: 0%;
+  top: 0%;
+}
+
+.donut_header {
+  text-align: center;
+  padding: 1.24rem 0;
+  border-bottom: 1px solid #DADDEB;
+}
+
+.main-container h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #272c39;
+  text-align: left;
+}
+
+.chart-divider {
+  position: relative;
+  height: 0px;
+  border: 1px solid #d6d6d6;
+  align-content: center;
+  min-width: 50%;
+  border-top: none;
+}
+
+.Sub-container {
+  position: relative;
+  margin-top: 50px;
+  left: 0%;
+}
+
+.Sub-container h2 {
+  margin: 5% 0;
+}

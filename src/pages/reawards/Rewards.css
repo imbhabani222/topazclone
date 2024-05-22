@@ -1,0 +1,447 @@
+.rewards_back_tab .ant-tabs-tab{
+    margin: 0;
+}
+
+
+.reward_select_outer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.select_reward_container {
+    width: 8rem;
+    height: 8rem;
+    background-color: #064482;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rewards_gift_comp svg {
+    height: 4rem;
+    width: 4rem;
+    color: #00adef;
+}
+
+.select_reward_container span:nth-child(1) {
+    height: 70%;
+    padding: .4rem;
+}
+
+.select_reward_container span:nth-child(2) {
+    height: 30%;
+    background-color: #00adef;
+    font-size: x-small;
+    font-weight: 600;
+    color: #ffffff;
+    padding: .6rem 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.create_rewards_container h3,
+.allocate_reward_container h3,
+.redeem_create h3 {
+    text-align: start;
+    font-weight: 700;
+    color: #064482;
+    margin-bottom: 1rem;
+}
+
+
+.inner_container_c_rewards_left {
+    width: 48%;
+    text-align: left;
+}
+
+.inner_container_c_rewards_right {
+    width: 48%;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1rem solid #EFF4FA;
+}
+
+.inner_container_c_rewards_header {
+    display: flex;
+    justify-content: space-between;
+}
+.reward_validity{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.ant-radio-checked .ant-radio-inner,
+.ant-radio:hover .ant-radio-inner {
+    border-color: #00adef;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+    background-color: #00adef;
+}
+
+.cRewards_formItems {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* .cRewards_formItems .ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable,
+.ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    height: 29rem;
+} */
+
+.inner_container_c_rewards_left input,
+.cRewards_formItems .ant-picker {
+    max-width: 20rem;
+}
+
+.cRewards_formItems .ant-picker {
+    width: 100%;
+}
+
+h4 {
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: .5rem;
+}
+
+label.ant-radio-button-wrapper.ant-radio-button-wrapper-in-form-item.rewards_unSelect_btn:after {
+    background-color: #00adef;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    color: #00adef;
+    border-color: #00adef;
+}
+
+label.ant-radio-button-wrapper.ant-radio-button-wrapper-in-form-item.rewards_unSelect_btn:hover {
+    color: #00adef;
+}
+
+
+
+.rewards_tab {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    min-height: 24rem;
+}
+
+.reawards_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    min-height: 17rem;
+}
+
+.rewards_inner_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: .5rem;
+    min-width: 25rem;
+}
+
+.reward_points_div input ::after {
+    background-color: transparent;
+}
+
+.reward_points_div input::-webkit-outer-spin-button,
+.reward_points_div input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.reward_points_div input {
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    margin: 0 1rem;
+}
+
+.rewards_inner_container .ant-picker {
+    width: 98%;
+}
+
+.rewards_inner_container .ant-row {
+    width: 101.5%;
+    margin: 0;
+}
+
+.rewards_inner_container h4,
+.rewards_inner_container h6,
+.adhoc_inner_container h4 {
+    font-weight: 600;
+    padding: .5rem 0 0 0;
+}
+
+.reward_points_amount,
+.reward_points_points {
+    width: 50%;
+    padding: .2rem 0;
+    position: relative;
+}
+
+.reward_points_div {
+    display: flex;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.reward_points_div div div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adhoc_inner_container {
+    max-width: 40rem;
+}
+
+.adhoc_inner_container textarea.ant-input {
+    max-width: 19rem;
+}
+
+.adhoc_inner_container .ant-form-item-control-input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.allocate_reward_container .ant-row {
+    text-align: start;
+}
+
+.allocate_reward_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.allocate_reward_container .ant-col.ant-form-item-control {
+    max-width: 31.58rem;
+}
+
+.ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    max-height: 25rem;
+}
+
+.rewards_modal_footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.rewards_submit {
+    background-color: #00adef;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    float: right;
+}
+
+.rewards_footer_container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.rewards_alc_btn {
+    background-color: #00adef;
+    height: 2rem;
+    width: 7.5rem;
+    border-radius: 5px;
+}
+
+.right_circle_rewards {
+    border: none;
+    background-color: #D9FDFF;
+    color: #00adef;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 11;
+    right: -8px;
+    top: 23px;  
+}
+
+.reward_points_div .reward_points_amount {
+    border-right: 1px solid #d3d3d3;
+}
+
+.rewards_divider {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.reward_points_div .ant-divider-horizontal.ant-divider-with-text::before {
+    width: 220%;
+}
+
+.reward_points_div .ant-divider-horizontal.ant-divider-with-text::after {
+    display: none;
+}
+
+.ant-divider.ant-divider-horizontal.ant-divider-with-text.ant-divider-with-text-center.rewards_divider.divider_reward_points {
+    margin: 0;
+}
+
+
+.modal_points_table .ant-table-body {
+    max-height: 13rem;
+
+}
+
+.modal_points_table {
+    top: 1rem;
+}
+
+.search_customer {
+    max-width: 17rem;
+    border-radius: 5px;
+}
+
+.hiddenbox {
+    position: absolute;
+    width: 800%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: transparent;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.reward_gift_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 25rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to right, #00adef, #064482);
+}
+
+.reward_gift_container h4 {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.rewards_gift svg {
+    height: 7rem;
+    width: 7rem;
+    color: #00adef;
+}
+
+.redeem_create {
+    display: flex;
+}
+
+.redeem_create_left {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.description_rewards_container div:nth-child(2) {
+    height: 10rem;
+    overflow-x: auto;
+    text-align: start;
+}
+
+.description_rewards_container div:nth-child(1) {
+    border-bottom: 1px solid silver;
+}
+
+.description_rewards_container h4 {
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #00adef;
+    padding: .5rem;
+    margin: 0;
+    max-width: 7rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.redeem_create_right .ant-form-item-control-input-content {
+    text-align: start;
+}
+
+.redeem_create_right {
+    width: 50vw;
+    margin-left: 1rem;
+}
+
+@media (min-width:250px) and (max-width:400px) {
+    .reward_points_div input {
+        width: 60%;
+    }
+}
+
+
+@media (min-width:250px) and (max-width:500px) {
+    .rewards_inner_container {
+        min-width: 0;
+        width: 80vw;
+    }
+}
+
+@media (min-width:250px) and (max-width:783px) {}
+
+@media (min-width:250px) and (max-width:992px) {
+    .inner_container_c_rewards_left {
+        width: 95%;
+        text-align: left;
+    }
+
+    .inner_container_c_rewards_right {
+        width: 95%;
+        /* border: none; */
+    }
+
+    .inner_container_c_rewards_header {
+        flex-direction: column;
+    }
+
+    .rewards_modal_btn {
+        margin-top: 0;
+    }
+}
+
+.radio_group_rewards {
+    display: inline-block;
+}
+
+.radio_group_rewards input[type="radio"] {
+    display: none;
+}
+
+.radio_group_rewards label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.radio_group_rewards input[type="radio"]:checked+label {
+    background-color: #00adef;
+    color: #fff;
+    border-color: #00adef;
+}

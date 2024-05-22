@@ -1,0 +1,284 @@
+.add-heading {
+  display: flex;
+}
+
+#edit-header-back-icon {
+  margin-top: 6px;
+}
+.ant-upload-span .ant-btn {
+  width: 60px;
+  height: 33px;
+  /* background: #ffffff; */
+  z-index: 9;
+  margin: 0 10px;
+}
+
+.add-heading-text {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.edit-cat-divider {
+  border-top: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.edit-cat-bot-divider {
+  border-top: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.categorCol {
+  margin: 0 30px 0 0;
+}
+
+.add-category-id-and-name .ant-form-item-label > label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #292c39;
+}
+.description_box .ant-col .ant-form-item-label {
+  font-weight: bold;
+  font-size: 15px;
+}
+.ant-col .ant-form-item-label {
+  font-weight: bold;
+}
+.add-category-container .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.cat-id .ant-input {
+  background: #e4e4e4;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+  color: #292c39;
+}
+
+.add-category-container
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.uploadk .ant-upload.ant-upload-select {
+  display: grid;
+}
+
+.uploadk .ant-btn > span {
+  display: table-row;
+}
+
+.uploadk .ant-upload.ant-upload-select {
+  display: grid;
+  width: 100%;
+}
+.uploadk .ant-btn > span {
+  display: table-row;
+}
+/* .uploadk .ant-btn {
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  z-index: 9;
+  margin: 0 10px;
+} */
+.ant-upload-span .ant-btn {
+  /* width: 60px;
+  height: 33px; */
+  /* background: #ffffff; */
+  z-index: 9;
+  margin: 0 10px;
+}
+.uploadk .ant-upload.ant-upload-drag .ant-upload-drag-container {
+  display: flex;
+}
+.uploadk .ant-upload.ant-upload-drag {
+  background: #f5f5f5;
+  border-radius: 5px;
+  border: none;
+}
+.uploadk .ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #756e6e;
+}
+.uploadk .ant-form-item-control-input-content {
+  text-align: left;
+}
+.uploadk .imagTag {
+  margin: 14px 10px;
+
+}
+
+.add-category-id-and-name .ant-upload.ant-upload-drag p.ant-upload-text {
+  margin: 0 0 4px 0px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.uploadk .ant-upload.ant-upload-drag .anticon-plus {
+  color: #ac9e9e;
+  font-size: 20px;
+}
+.uploadk .ant-upload.ant-upload-drag .ant-upload {
+  padding: 12px 10px 12px;
+}
+
+.text-position
+  .ant-select-single.ant-select-show-arrow
+  .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-right: 18px;
+  text-align: left;
+}
+
+#edit-create-btn-divider {
+  border: 1px solid #d7d7d7;
+  margin-top: 3%;
+}
+
+#edit-category-backbtn {
+  background: #ffffff;
+  border: 1px solid #079bd3;
+  border-radius: 5px;
+  color: #079bd3;
+  width: 6rem;
+  padding: 0 20px;
+  margin-right: 20px;
+}
+
+.BtnCol {
+  text-align: right;
+  margin-right: 20px;
+}
+
+#edit-create-btn {
+  width: 6rem;
+  height: 40px;
+  background: #00adef;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+
+  margin-left: 2%;
+}
+
+.edit-category-image {
+  text-align: left;
+  padding: 1%;
+  width: 117px;
+  border: 1px solid #b9bfd7;
+  border-radius: 4px;
+  margin-bottom: 7px;
+}
+
+.category-description {
+  height: 194.39px;
+}
+
+.edit-category-image img {
+  width: 100%;
+  height: 90px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1474px) {
+  #edit-category-backbtn {
+    background: #ffffff;
+    border: 1px solid #079bd3;
+  }
+  .cat-id .ant-input {
+    background: #e4e4e4;
+    border: 1px solid #b9bfd7;
+    border-radius: 5px;
+  }
+
+  .add-category-container
+    .ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    background: #ffffff;
+    border: 1px solid #b9bfd7;
+    border-radius: 5px;
+  }
+
+  .uploadk .ant-upload.ant-upload-select {
+    display: grid;
+  }
+
+  .uploadk .ant-btn > span {
+    display: table-row;
+  }
+
+  .uploadk .ant-upload.ant-upload-select {
+    display: grid;
+  }
+  .uploadk .ant-btn > span {
+    display: table-row;
+  }
+  .uploadk .ant-btn {
+    /* width: 70px;
+    height: 70px; */
+    /*background: #ffffff; */
+    z-index: 9;
+    margin: 0 10px;
+  }
+  .uploadk .ant-upload.ant-upload-drag .ant-upload-drag-container {
+    display: flex;
+  }
+  .uploadk .ant-upload.ant-upload-drag {
+    background: #f5f5f5;
+    border-radius: 5px;
+    color: #079bd3;
+    /* width: 6rem;
+    margin-left: 97%; */
+  }
+}
+
+.uploadcat .uploadk .ant-image-mask{
+  width:auto;
+  margin:0;
+}
+
+.uploadcat .uploadk .imagTag{
+  margin-left: 0px;
+}
+
+.uploadcat .uploadk .imagTag {
+   margin: 0;
+}
+
+.uploadcat .uploadk .ant-upload-list-item-actions button[title="Remove file"]{
+  display: none;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .categorCol {
+    margin: 0 0 0 0;
+  }
+
+  .category-m-col {
+    margin: 0 6% 0 0;
+  }
+}
+.ant-select-multiple .ant-select-selection-item {
+  background: #edf0f1;
+}

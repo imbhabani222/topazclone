@@ -1,0 +1,58 @@
+.img1 {
+  width: 120px;
+  height: 120px;
+  border: 1px solid lightseagreen;
+  padding: 2px;
+}
+.divider {
+  border-bottom: 1px solid #d6d6d6;
+  margin: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.image-bg{
+  background: #FFFFFF;
+border: 1px solid #B9BFD7;
+border-radius: 4px;
+width: 150px;
+height: 150px;
+}
+.tr-data {
+  font-size: 14px;
+  line-height: 30px;
+  color: #898989;
+  padding-right: 60px;
+  font-weight: 700;
+}
+.td-data {
+  font-size: 14px;
+  line-height: 30px;
+  color: #292c39;
+  font-weight: 700;
+}
+.description {
+  color: #095198;
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 700;
+}
+.des_para {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #292c39;
+}
+.para {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.product_details {
+  padding: 9px;
+}
+.view_details {
+  padding-left: 10px;
+}

@@ -1,0 +1,257 @@
+.additional-details-text h4 {
+  margin-left: 14px;
+  color: #272c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+
+#onboard_payments .ant-form-item-label>label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.payments_border_container {
+  border-radius: 10px;
+  border: 1px solid #DDDDDD;
+  margin: 1.2rem 0;
+
+}
+.payment_title{
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+}
+.payment_title h3 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  color: #272c39;
+  margin-top: 27px;
+}
+
+.payment_title .payment_header_divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 0;
+}
+
+@media (max-width: 764px) {
+  .payments_border_container {
+    padding: 0 1rem;
+  }
+}
+
+.additional-details-container .onboardForm .secondary_account_delete_btn {
+  width: 5.62rem;
+  height: 2.18rem;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  color: #444444;
+  border-radius: 5px;
+  margin:1rem 0 0 0;
+}
+
+.additional-details-container .onboardForm .secondary_account_delete_btn_active {
+  display: none;
+}
+
+.additional-details-container .ant-divider {
+  border-top: 1px solid #d6d6d6;
+  color: #d6d6d6;
+}
+
+.primary-info {
+  display: table-row;
+}
+
+.additional-details-container .ant-form-item {
+  color: #292c39;
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+  font-style: normal;
+  font-family: lato;
+}
+
+.onboard-details-fields .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.cin-divider .ant-divider-horizontal {
+  margin-top: 29pxpx;
+
+}
+
+
+.cin-divider .ant-form-item {
+  margin-top: 33px;
+}
+
+.additional-details-text {
+  margin-top: 3px;
+}
+
+.additional-details-text .ant-divider-horizontal {
+  min-width: 100%;
+  width: 100%;
+  height: 0px;
+  margin-bottom: 33px;
+}
+
+
+.additional-details-container .ant-space {
+  display: block;
+}
+
+.add-plusicon {
+  color: white;
+}
+
+.pay-add-btn {
+  width: 95px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #00adef;
+}
+
+.additional-details-info {
+  margin-top: 0px;
+  margin-left: 0;
+  width: 100%;
+}
+
+
+
+.additional-details-info .ant-divider-horizontal {
+  margin-top: 8px;
+  min-width: 100%;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.height-addional .ant-btn {
+  height: 35px;
+}
+
+.additional-delete-divider .ant-divider-horizontal {
+  margin-top: 1rem;
+}
+
+.additional-back-button .ant-tabs {
+  line-height: 0.9305;
+}
+
+.additional-back-button img {
+  margin-bottom: 7px;
+}
+
+.details-heading {
+  margin-top: 24px;
+  margin-bottom: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #272c39;
+  text-align: left;
+}
+
+
+
+.sub-divider {
+  margin-bottom: 39px;
+  margin-top: 37px;
+}
+
+
+
+.onboard-details-fields {
+  width: 774px;
+  margin-left: 0;
+}
+
+/* .onboard-details-fields .ant-form-item {
+    width: 350px;
+  } */
+
+.account-details-one {
+  display: flex;
+}
+
+.form-distance {
+  margin-left: 75px;
+}
+
+.additional-details-container .ant-form-item {
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.colgap {
+  /* border: 1px solid red; */
+  text-align: -webkit-center;
+}
+
+.mid-area {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center !important;
+}
+
+.additional-details-container .ant-btn {
+  border: 1px solid #00adef;
+  border-radius: 5px;
+  background-color: #00adef !important;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  height: 35px;
+  width: 12rem;
+}
+
+.additional-details-container button svg {
+  font-size: 16px;
+}
+
+.stepsCustomClass .rightmark svg {
+  width: 1.5em;
+  height: 1.9em;
+  font-size: 18px;
+}
+
+.stepsCustomClass .ant-steps-item-title::after {
+  width: 154px;
+}
+
+.height-addional {
+  margin-top: 6px;
+}
+
+/* .additinal-details{
+      padding-left: 55px;
+  } */
+
+
+.stepsCustomClass .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+  color: #615959;
+}
+
+@media (min-width: 250px) and (max-width: 576px) {
+  .payment_title{
+    flex-direction: column;
+  }
+}

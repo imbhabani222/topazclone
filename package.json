@@ -1,0 +1,93 @@
+{
+  "name": "topaz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ckeditor/ckeditor5-build-classic": "^36.0.1",
+    "@ckeditor/ckeditor5-essentials": "^36.0.1",
+    "@ckeditor/ckeditor5-react": "^5.1.0",
+    "@nivo/bar": "^0.79.1",
+    "@nivo/core": "^0.79.0",
+    "@nivo/pie": "^0.79.1",
+    "@react-pdf/renderer": "^3.1.12",
+    "@reduxjs/toolkit": "^1.7.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.20.1",
+    "antd-img-crop": "^4.12.2",
+    "axios": "^0.26.1",
+    "ckeditor5": "^34.0.0",
+    "concurrently": "^7.0.0",
+    "d3-delaunay": "^6.0.2",
+    "d3-scale": "^4.0.2",
+    "date-and-time": "^2.2.1",
+    "env-cmd": "^10.1.0",
+    "firebase": "^10.0.0",
+    "install": "^0.13.0",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "qrcode.react": "^3.1.0",
+    "react": "^17.0.2",
+    "react-barcode": "^1.4.1",
+    "react-barcodes": "^1.2.0",
+    "react-chatbot-kit": "^2.0.1",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-otp-input": "^3.0.1",
+    "react-pdf": "^7.1.2",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "^5.0.1",
+    "react-share": "^4.4.1",
+    "react-tag-input": "^6.8.1",
+    "react-timer-hook": "^3.0.5",
+    "react-to-print": "^2.14.12",
+    "react-virtualized-auto-sizer": "^1.0.6",
+    "react-webcam": "^7.0.1",
+    "read-pkg": "^7.1.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "universal-cookie": "^4.0.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.dev react-scripts start",
+    "start:dev": "env-cmd -f .env.dev react-scripts start",
+    "start:uat": "env-cmd -f .env.uat react-scripts start",
+    "build": "react-scripts build",
+    "build:uat": "env-cmd -f .env.uat react-scripts build",
+    "build:dev": "env-cmd -f .env.dev react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.16.7"
+  },
+  "optimization": {
+    "scripts": true,
+    "styles": {
+      "minify": false,
+      "inlineCritical": false
+    },
+    "fonts": true
+  }
+}

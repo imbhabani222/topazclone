@@ -1,0 +1,91 @@
+.onbord_pannel {
+  width: 100%;
+  min-height: auto;
+  background-color: #fff;
+  padding: 39px 46px 29px;
+}
+.onboardForm {
+  width: 100%;
+}
+.save_continue {
+  width: 7.5rem;
+  height: 40px;
+  background: #00adef;
+  border-radius: 5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.onboardForm .ant-form-item-label > label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+}
+.onboardForm .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+}
+#cust-id .ant-input {
+  background: #e4e4e4;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+.divider {
+  border-bottom: 1px solid #d6d6d6;
+  margin: 29px 0 14px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.acc-divider {
+  border-top: 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+.divider-customer {
+  margin: 29px 0 14px 0;
+  border-bottom: 1px solid #d6d6d6;
+}
+.account-info {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292c39;
+  margin-bottom: 0px;
+}
+.cust-title h3 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292c39;
+  margin-bottom: 0px;
+}
+.onbordTitle h3 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+  letter-spacing: 0em;
+}
+@media only screen and (min-width: 756px) and (max-width: 856px) {
+  .onboardForm .ant-form-item-label > label {
+    font-size: 14px;
+  }
+}

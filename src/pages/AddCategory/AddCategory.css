@@ -1,0 +1,219 @@
+.add-heading {
+  display: flex;
+}
+.add-category-id-and-name .ant-row {
+  padding-top: 5px;
+}
+
+#header-back-icon {
+  margin-top: 6px;
+  margin-left: 0;
+}
+
+.add-heading-text {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.upload_data::after{
+  display: inline-block;
+    margin-left: 3px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*"; 
+}
+.ck.ck-editor__editable_inline > :last-child {
+  margin-bottom: var(--ck-spacing-large);
+  padding-left: 10px;
+}
+.add-cat-divider {
+  border-top: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #d7d7d7;
+}
+.add-cat-bottom-divider {
+  border-top: 0;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.categorCol {
+  margin: 0 6% 0 0;
+}
+
+.add-category-id-and-name .ant-form-item-label > label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #292c39;
+}
+
+.add-category-container .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.cat-id .ant-input {
+  background: #e4e4e4;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.add-category-container
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  border-radius: 5px;
+}
+
+.uploadk .ant-upload.ant-upload-select {
+  display: grid;
+}
+
+.uploadk .ant-btn > span {
+  display: table-row;
+}
+
+.uploadk .ant-upload-list-text-container,
+.ant-upload-list-picture-container {
+  transition: none !important;
+}
+
+.uploadk .ant-upload.ant-upload-select {
+  display: grid;
+}
+.uploadk .ant-btn > span {
+  display: table-row;
+}
+.categorCol .uploadk .ant-btn {
+  width: auto;
+  height: auto;
+  /*background: #ffffff; */
+  z-index: 9;
+  margin: 0 10px;
+}
+.uploadk .ant-upload.ant-upload-drag .ant-upload-drag-container {
+  display: flex;
+}
+.uploadk .ant-upload.ant-upload-drag {
+  background: #f5f5f5;
+  border-radius: 5px;
+  border: none;
+}
+.uploadk .ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  margin-left: 8px;
+  font-size: 11px;
+  color: #ac9e9e;
+}
+
+.add-category-id-and-name .ant-upload.ant-upload-drag p.ant-upload-text {
+  margin: 0 0 4px 0px;
+  text-align: left;
+  font-size: 12px;
+  color: #817777;
+}
+
+.uploadk .ant-upload.ant-upload-drag .anticon-plus {
+  color: #ac9e9e;
+  font-size: 20px;
+}
+.uploadk .ant-upload.ant-upload-drag .ant-upload {
+  padding: 12px 10px 12px;
+}
+
+.text-position
+  .ant-select-single.ant-select-show-arrow
+  .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-right: 18px;
+  text-align: left;
+}
+.text-positions
+  .ant-select-single.ant-select-show-arrow
+  .ant-select-selection-item,
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-right: 18px;
+  text-align: left;
+}
+.text-position {
+  margin: 0 6% 0 0;
+}
+
+#create-btn-dividers {
+  position: relative;
+  height: 0px;
+  border: 1px solid #d6d6d6;
+  background: #d6d6d6;
+  align-content: center;
+}
+
+#category-backbtn {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #0a7ca7;
+  border-radius: 5px;
+  width: 6rem;
+  height: 40px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0a7ca7;
+  width: 6rem;
+}
+.divButton {
+  display: flex;
+  justify-content: flex-end;
+}
+.BtnCol {
+  text-align: right;
+}
+
+#create-btn {
+  color: #ffffff;
+  width: 6rem;
+  margin-left: 3%;
+  height: 40px;
+  background: #00adef;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/* @media screen and (min-width:1474px)   {
+  #category-backbtn{
+    background: #FFFFFF;
+    border: 1px solid #079BD3;
+    border-radius: 5px;
+    color: #079BD3;
+    width: 6rem;
+    margin-left:97%
+  }
+}  */
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .categorCol {
+    margin: 0 0 0 0;
+  }
+
+  .category-m-col {
+    margin: 0 6% 0 0;
+  }
+}
+.add-category-id-and-name .ant-btn .anticon.anticon-plus > svg {
+  font-size: 18px;
+}
+.add-category-container .ant-form-item-explain-error {
+  text-align: left;
+}

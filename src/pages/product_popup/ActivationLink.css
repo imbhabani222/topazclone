@@ -1,0 +1,48 @@
+.title-barcode .ant-modal-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #292c39;
+}
+.edit_details .ant-modal-close-x {
+  padding-top: 10px;
+  padding-right: 52px;
+}
+.edit_details .ant-modal-body {
+  padding: 52px 31px 41px;
+  font-size: 14px;
+  line-height: 1.5715;
+  word-wrap: break-word;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.sharebtn {
+  border-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #079bd3;
+  box-sizing: border-box;
+  width: 120px;
+  height: 40px;
+}
+
+.download-btn {
+  margin-left: 21px;
+  width: 120px;
+  height: 40px;
+  background: #00adef;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  border-radius: 5px;
+}

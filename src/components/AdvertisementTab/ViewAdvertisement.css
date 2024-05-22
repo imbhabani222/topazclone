@@ -1,0 +1,192 @@
+.buttonFlex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  float: right;
+  bottom: 0;
+}
+
+.adv_table .ant-table-thead > tr > th {
+  background-color: #edf0f1;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.adv_table .ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+}
+.adv_table .ant-table-tbody > tr > td {
+  transition: 0px;
+  border-bottom: 1px solid #d5d5d7;
+}
+.adv_table .ant-table-thead > tr > th {
+  background-color: #edf0f1;
+  color: #000000;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* ..prodctu-table .ant-table-thead > tr > th,
+.ant-table tfoot > tr > th {
+  padding-top: 13px;
+  padding-bottom: 13px;
+} */
+
+.adv_table.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+}
+
+.adv_table .ant-table-tbody > tr > td {
+  transition: 0px;
+  border-bottom: 1px solid #d5d5d7;
+}
+
+.adv_table .ant-table {
+  background-color: #fbfbfb;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.adv_table .ant-tag,
+.ant-tag a,
+.ant-tag a:hover {
+  color: #ffffff;
+  width: 131px;
+  height: 23px;
+  border-radius: 2px;
+}
+
+.adv_table .ant-tag {
+  text-align: center;
+}
+
+.adv_table a {
+  color: #0a7ca7;
+}
+
+.adv_table.ant-table-tbody > tr > td {
+  transition: 0px;
+  border-bottom: 1px solid #d5d5d7;
+}
+
+/* .adv_table.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+} */
+.change-phoneemail .ant-modal-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 10px;
+  color: #292c39;
+  margin: 10px 1px;
+}
+.ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+  display: none;
+}
+
+.divider {
+  border-bottom: 1px solid #d6d6d6;
+  /* margin: 0; */
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.tr-data {
+  font-size: 14px;
+  line-height: 30px;
+  color: #898989;
+  padding-right: 60px;
+}
+.td-data {
+  font-size: 14px;
+  line-height: 30px;
+  color: #292c39;
+}
+.description {
+  color: #095198;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+.para {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.product_details {
+  padding: 9px;
+}
+.product_details .ant-modal-header{
+  border: 1px solid red;
+}
+.edit-advertisement-description textarea.ant-input {
+  height: 134px;
+}
+.cancelbtn {
+  border: 1px solid #079bd3;
+  background-color: #ffffff;
+  color: #079bd3;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  width: 120px;
+  height: 40px;
+}
+.save-btn {
+  margin-left: 21px;
+  width: 120px;
+  height: 40px;
+  background: #00adef;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.save-cancle-button {
+  display: flex;
+  justify-content: flex-end;
+}
+/* .adv_table .disabled-row {
+    background-color: #dcdcdc;
+    pointer-events:painted;
+} */
+.adv_table .ant-table-thead > tr > th {
+  background-color: #edf0f1;
+  color: #292c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+

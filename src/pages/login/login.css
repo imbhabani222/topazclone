@@ -1,0 +1,418 @@
+.loginpage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.loginleftContainer {
+  width: 50%;
+  padding: 5% 0 0 0;
+  background-color: #095198;
+  margin-top: 5%;
+  border-radius: 0 55px 0 0;
+  background-image: url(../../assets/img/login-bg@2x.png);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.rightimgcontainer {
+  margin-bottom: 30px;
+  /* display: none; */
+}
+.project_title {
+  position: relative;
+  display: flex;
+  /* padding: 50% 26% 0; */
+  text-align: left;
+}
+.project_title h2 {
+  /* position: relative; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* padding: 26% 26% 0; */
+  text-align: left;
+}
+.project_title h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+.loginrightContainer {
+  width: 50%;
+  padding: 13% 9% 1%;
+  justify-content: center;
+}
+.loginrightContainer h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  color: #272c39;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+}
+.joinTopaz {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272c39;
+  padding: 0px 8px;
+  margin-bottom: auto;
+  margin-left: -100px;
+}
+
+.loginFooter {
+  position: fixed;
+  bottom: 0;
+  font-size: 13px;
+  line-height: 16px;
+  color: #565a67;
+}
+.loginrightContainer .ant-btn-primary {
+  width: 100%;
+  color: #fff;
+  background: #00adef;
+  border-radius: 5px;
+  border-color: #00adef;
+  height: 40px;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.loginrightContainer .ant-input-affix-wrapper {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0 auto;
+}
+
+.loginrightContainer .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::after {
+  display: inline-block;
+  margin-right: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: "*";
+}
+.ant-form-item-label
+  > label.ant-form-item-required:not(
+    .ant-form-item-required-mark-optional
+  )::before {
+  content: "";
+  display: none;
+}
+.loginrightContainer .ant-form-item-label > label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272c39;
+  font-family: Lato;
+}
+
+.loginrightContainer .ant-form-item-explain-error {
+  text-align: left;
+}
+.loginleftContainer .ant-form-item-with-help .ant-form-item-explain {
+  text-align: left;
+}
+.username_col {
+  height: 35px;
+}
+.pwd_col {
+  height: 35px;
+}
+.pwd_item .ant-form-item {
+  margin-bottom: 0px;
+}
+
+.loginrightContainer .ant-checkbox {
+  font-size: 17px;
+}
+.loginrightContainer .ant-checkbox-checked .ant-checkbox-inner {
+  width: 17px;
+  height: 17px;
+  background: #00adef;
+  border-radius: 2px;
+}
+.newlogin {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.newpwd {
+  justify-content: flex-end;
+}
+.App .colRemember .ant-form-item-control-input-content {
+  text-align: left;
+  margin-left: 0%;
+}
+.colForgot {
+  margin-left: "10%";
+  text-align: left;
+}
+
+.loginrightContainer .ant-form-item-control-input-content a {
+  color: #0185fe;
+  font-size: 14px;
+  /* margin-left: -4%; */
+}
+@media all and (min-width: 790px) and (max-width: 1199px) {
+  .ant-form label {
+    font-size: 14px;
+  }
+
+  .App .colRemember .ant-form-item-control-input-content {
+    text-align: left;
+    margin-left: 2%;
+  }
+  .colForgot {
+    text-align: left;
+  }
+
+  .loginrightContainer .ant-form-item-control-input-content a {
+    color: #0185fe;
+    font-size: 50%;
+    margin-left: 8%;
+  }
+  .joinTopaz {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 19px;
+    color: #272c39;
+    padding: 0px 8px;
+    margin-bottom: auto;
+  }
+  .loginFooter {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+    line-height: 16px;
+    color: #565a67;
+  }
+}
+@media all and (min-width: 393px) and (max-width: 851px) {
+  .logincss {
+    background: 1px solid red;
+    margin-left: 10%;
+  }
+  .forgotpwd {
+    margin-right: "0px";
+  }
+}
+
+@media all and (min-width: 574px) and (max-width: 790px) {
+  .ant-form label {
+    font-size: 14px;
+  }
+
+  .App .colRemember .ant-form-item-control-input-content {
+    text-align: left;
+    margin-left: 2%;
+  }
+  .colForgot {
+    text-align: left;
+  }
+
+  .loginrightContainer .ant-form-item-control-input-content a {
+    color: #0185fe;
+    font-size: 50%;
+    margin-left: 4%;
+  }
+  .joinTopaz {
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 19px;
+    color: #272c39;
+    padding: 0px 8px;
+    margin-bottom: auto;
+  }
+  .loginFooter {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+    line-height: 16px;
+    color: #565a67;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .loginpage {
+    position: relative;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .loginleftContainer {
+    display: none;
+  }
+
+  .project_title {
+    display: none;
+  }
+  .project_title h2 {
+    display: none;
+  }
+  .rightimgcontainer {
+    display: block;
+    background-color: #095198;
+    width: 100%;
+    padding: 8% 0 0 0;
+
+    background-image: url(../../assets/img/login-bg@2x.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+  }
+
+  .loginrightContainer {
+    width: 100%;
+    justify-content: center;
+    padding: 0% 0% 0%;
+  }
+  .loginrightContainer h2 {
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #272c39;
+    margin-bottom: 61px;
+    font-family: "Lato", sans-serif;
+  }
+  .joinTopaz {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #272c39;
+    padding: 0px 8px;
+    margin-bottom: auto;
+    margin-left: 0px;
+  }
+
+  .loginFooter {
+    padding: 0px 40px;
+    position: fixed;
+    bottom: 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #565a67;
+  }
+  .loginrightContainer .ant-btn-primary {
+    width: 80%;
+    color: #fff;
+    background: #00adef;
+    border-radius: 5px;
+    border-color: #00adef;
+    height: 40px;
+    text-shadow: none;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .loginrightContainer .ant-input-affix-wrapper {
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #b9bfd7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 auto;
+  }
+
+  .loginrightContainer .ant-input {
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #b9bfd7;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .ant-form-item-label
+    > label.ant-form-item-required:not(
+      .ant-form-item-required-mark-optional
+    )::after {
+    width: 80%;
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: "*";
+  }
+  .ant-form-item-label
+    > label.ant-form-item-required:not(
+      .ant-form-item-required-mark-optional
+    )::before {
+    content: "";
+  }
+  .loginrightContainer .ant-form-item-label > label {
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #272c39;
+    font-family: Lato;
+  }
+
+  .loginrightContainer .ant-form-item-explain-error {
+    text-align: left;
+  }
+  .loginleftContainer .ant-form-item-with-help .ant-form-item-explain {
+    text-align: left;
+  }
+  .username_col {
+    height: 35px;
+  }
+  .pwd_col {
+    height: 35px;
+    width: 80%;
+  }
+  .pwd_item .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .loginrightContainer .ant-checkbox {
+    font-size: 17px;
+  }
+  .loginrightContainer .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #00adef;
+  }
+  .loginrightContainer .ant-checkbox + span {
+    margin-right: -1px;
+  }
+  .newlogin {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .newpwd {
+    justify-content: flex-end;
+  }
+  .loginrightContainer .ant-form-item-control-input-content a {
+    color: #0185fe;
+    font-size: 14px;
+    margin-left: 25%;
+  }
+  .App .colRemember .ant-form-item-control-input-content {
+    text-align: left;
+    margin-left: 20%;
+  }
+  .colForgot {
+    text-align: left;
+  }
+}

@@ -1,0 +1,53 @@
+.user-management-tab-container {
+  background-color: #ffffff;
+  width: 1222px;
+}
+
+.user-management-tab-container .ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin-bottom: 31px;
+}
+
+.user-management-tab-container
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: #292c39;
+  text-shadow: 0 0;
+}
+
+.user-management-tab-container .ant-tabs-tab {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.user-management-tab-container .ant-tabs-ink-bar {
+  position: absolute;
+  background: #00adef;
+  pointer-events: none;
+}
+
+.user-management-tab-container .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 5px;
+}
+
+.user-management-tab-container .ant-tabs-tab {
+  padding-bottom: 18px;
+}
+
+.user-management-tab-container .ant-tabs-content-holder {
+  padding-left: 46px;
+  width: 1131px;
+}
+
+.user-management-tab-container .ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  background: #eff4fa;
+}

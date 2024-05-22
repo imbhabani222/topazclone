@@ -1,0 +1,57 @@
+.orders-tab {
+  background-color: #ffffff;
+  padding: 10px 40px;
+  /* margin: -10%; */
+}
+
+.orders-tab .ant-tabs { 
+  color: #292c39;
+  font-family: "Lato";
+  font-weight: 400;
+  height: 100%;
+}
+
+.orders-tab .ant-tabs-tab {
+  font-size: 16px;
+  padding: 22px 0;
+}
+
+.orders-tab .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #292c39;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: none;
+}
+
+.orders-tab .ant-tabs-tab:hover {
+  color: #292c39;
+}
+
+.orders-tab .ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin-bottom: 0px;
+}
+
+.orders-tab .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 4px;
+  /* width: 6.87rem !important; */
+}
+
+.view_order_class .ant-tabs-top > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  display: none;
+}
+@media only screen and (max-width: 479px) {
+  .orders-tab {
+    background-color: #ffffff;
+    padding: 0px 10px;
+  }
+}

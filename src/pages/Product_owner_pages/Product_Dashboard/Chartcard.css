@@ -1,0 +1,201 @@
+.card-wrapper {
+  /* margin: 20px;
+    padding: 20px; */
+  text-align: left;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  border-radius: 5px;
+}
+
+
+.Border-card1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #eed168;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #97ca6e;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #96d4ec;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card4 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #bf96df;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card-wrapper h1 {
+  /* position: absolute;
+  width: 53px;
+  height: 36px;
+  left: 242px;
+  top: 301px;  */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #272a2e;
+}
+
+.cardFlex {
+  display: flex;
+  justify-content: space-around;
+  padding: 23px 0;
+
+}
+
+.card-wrapper h3 {
+  /* position: absolute;
+  width: 40px;
+  height: 16px;
+  left: 242px;
+  top: 345px; */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #484743;
+}
+
+.Icons {
+  position: absolute;
+  right: 7%;
+  top: 30%;
+}
+
+.chart_img {
+  height: 68px;
+  width: 78px;
+}
+
+.chart_para {
+  font-weight: bold;
+  color: #484743;
+}
+
+.card-wrapper {
+  /* margin: 20px;
+    padding: 20px; */
+  text-align: left;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  border-radius: 5px;
+}
+
+.Border-card1 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #eed168;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #97ca6e;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #96d4ec;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.Border-card4 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  border: 2px solid #bf96df;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card-wrapper h1 {
+  /* position: absolute;
+  width: 53px;
+  height: 36px;
+  left: 242px;
+  top: 301px;  */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #272a2e;
+}
+
+.card-wrapper h3 {
+  /* position: absolute;
+  width: 40px;
+  height: 16px;
+  left: 242px;
+  top: 345px; */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  color: #484743;
+}
+
+.Icons {
+  position: absolute;
+  right: 7%;
+  top: 30%;
+}
+
+.chart_img {
+  height: 68px;
+  width: 78px;
+}
+
+.chart_para {
+  font-weight: bold;
+  color: #484743;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.chart_number {
+  font-size: 30px;
+  line-height: 36px;
+  color: #272A2E;
+  font-family: 'Lato';
+  font-weight: 700;
+}

@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+}
+
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* .anticon svg {
+  display: inline-block;
+  color: #C1C1C1;
+} */
+/* .ant-pagination-item-active {
+  font-weight: 500;
+  background: #fff;
+  border-color: #00ADEF;
+} */

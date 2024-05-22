@@ -1,0 +1,49 @@
+.discounts-offers-tabs-container {
+  background-color: #ffffff;
+  padding: 10px 40px;
+}
+
+.discounts-offers-tabs-container .ant-tabs {
+  color: #292c39;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.discounts-offers-tabs-container .ant-tabs-tab {
+  font-size: 16px;
+  padding: 22px 0;
+}
+
+.discounts-offers-tabs-container
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: #000000D9;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: none;
+}
+
+
+
+.discounts-offers-tabs-container .ant-tabs-tab:hover {
+  color: #292c39;
+}
+
+.discounts-offers-tabs-container .ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin-bottom: 27px;
+}
+
+.discounts-offers-tabs-container
+  .ant-tabs-top
+  > .ant-tabs-nav
+  .ant-tabs-ink-bar,
+.ant-tabs-bottom > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-bottom > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  height: 4px;
+  width: 68px;
+}

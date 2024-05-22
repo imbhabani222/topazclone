@@ -1,0 +1,46 @@
+.notificationTable {
+    padding: 17px 30px;
+    border-radius: 4px;
+    height: 84px;
+    font-size: 12px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer
+}
+
+.notificationTable .notificationInnerRow {
+    display: flex;
+    justify-content: space-between;
+    color: #202124;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+
+.notificationTable .notificationHeader {
+    display: flex;
+    justify-content: space-between;
+    color: #2E77D0;
+}
+
+.notificationTable .notificationType {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.notificationTable .notificationDate {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.notificationTable .notificationInnerRow.read,
+.notificationTable .notificationHeader.read {
+    color: #A7A7A7;
+}

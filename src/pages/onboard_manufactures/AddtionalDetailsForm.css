@@ -1,0 +1,228 @@
+.additional-details-text h4 {
+  margin-left: 14px;
+  color: #272c39;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+.additional-details-container .ant-divider {
+  border-top: 1px solid #d6d6d6;
+  color: #d6d6d6;
+}
+
+.additional-details-container .ant-form-item {
+  color: #292c39;
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+  font-style: normal;
+  font-family: lato;
+}
+
+.onboard-details-fields .ant-input {
+  background: #ffffff;
+  border: 1px solid #b9bfd7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.cin-divider .ant-divider-horizontal {
+  margin-top: 29pxpx;
+}
+
+.cin-divider .ant-form-item {
+  margin-top: 33px;
+}
+
+.additional-details-text {
+  margin-top: 3px;
+}
+
+.additional-details-text .ant-divider-horizontal {
+  min-width: 100%;
+  width: 100%;
+  height: 0px;
+  margin-bottom: 33px;
+}
+
+.additional-details-info {
+  margin-top: 0px;
+  margin-left: 0;
+  width: 100%;
+}
+.additional-details-container .additional-sumbmit .ant-form-item {
+  margin-top: 6px;
+}
+
+.additional-details-container .ant-space {
+  display: block;
+}
+
+.add-btn {
+  width: 95px;
+  height: 85px;
+  border-radius: 5px;
+  background-color: #00adef;
+}
+
+.additional-details-info .ant-divider-horizontal {
+  margin-top: 3px;
+  min-width: 100%;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.additional-details-container .height-addional .ant-btn {
+  border: 1px solid #00adef;
+  border-radius: 5px;
+  background-color: #00adef !important;
+  color: red;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  height: 35px;
+  width: 95px;
+}
+
+.additional-delete-divider .ant-divider-horizontal {
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+.gst-cin-divider .ant-divider-horizontal {
+  margin-top: 22px;
+}
+
+.additional-back-button .ant-tabs {
+  line-height: 0.9305;
+}
+
+.additional-back-button img {
+  margin-bottom: 7px;
+}
+
+.details-heading {
+  margin-top: 35px;
+  margin-bottom: 0px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  color: #272c39;
+  text-align: left;
+}
+
+.sub-divider {
+  margin-bottom: 39px;
+  margin-top: 37px;
+}
+
+.onboard-details-fields {
+  width: 774px;
+  margin-left: 0;
+}
+
+.account-details-one {
+  display: flex;
+}
+
+.form-distance {
+  margin-left: 75px;
+}
+
+.additional-details-info .additional-add-delete-buttons {
+  margin-left: 4%;
+}
+
+.additional-details-container .ant-form-item {
+  margin-bottom: 12px;
+  margin-top: 14px;
+}
+
+.additional-details-container .onboardForm {
+  padding: 1% 6%;
+  width: 100%;
+}
+
+.additional-details-container .additional-bank .ant-form-item-label > label {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.2px;
+  color: #292c39;
+}
+
+.additional-add-delete-buttons .ant-form-item {
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.additional-details-container .ant-btn {
+  border: 1px solid #00adef;
+  border-radius: 5px;
+  background-color: #00adef !important;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  height: 40px;
+}
+
+.additional-details-container .additional-sumbmit .ant-btn {
+  border: 1px solid #00adef;
+  border-radius: 5px;
+  background-color: #00adef !important;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  height: 40px;
+  width: 120px;
+}
+
+.additional-details-container button svg {
+  font-size: 16px;
+}
+.stepsCustomClass .rightmark svg {
+  width: 1.5em;
+  height: 1.9em;
+  font-size: 18px;
+}
+
+.stepsCustomClass .ant-steps-item-title::after {
+  width: 100%;
+}
+
+.height-addional {
+  margin-top: 6px;
+}
+
+.stepsCustomClass
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #615959;
+}
+
+.additional-details-container .man-additional-add .ant-form-item {
+  margin-bottom: 3px;
+  margin-top: 12px;
+}
+
+@media (max-width: 1448px) {
+  .additional-details-info .additional-add-delete-buttons {
+    margin-left: 0;
+  }
+}

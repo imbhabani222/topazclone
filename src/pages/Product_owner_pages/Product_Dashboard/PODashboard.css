@@ -1,0 +1,75 @@
+.Bar-Chart {
+  min-height: 0px;
+  height: 27rem;
+  background: #ffffff;
+  width: 100%;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: scroll;
+}
+
+.ant-tabs.ant-tabs-top.chart_bar_container .ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+.barchart_monthly_container{
+  height:23.5rem;
+}
+.barchart_daily_container{
+  height:27.7rem;
+}
+
+.Bar-Chart .date_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 3rem;
+}
+
+.date_container .total_sales {
+  font-size: medium;
+  font-weight: 900;
+}
+
+.chart_responsive {
+  height: 90%;
+  width: 100%;
+}
+
+.Bar-Chart div:nth-child(2) div:first-child svg {
+  display: flex;
+}
+
+.Bar-Chart div:nth-child(2) div:first-child svg g g:nth-child(3) {
+  display: flex;
+}
+
+.ant-tabs.ant-tabs-top.chart_bar_container {
+  border: 1px solid #daddeb;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+
+.ant-tabs.ant-tabs-top.chart_bar_container .ant-tabs-nav .ant-tabs-nav-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.Bar-Chart h3 {
+  position: absolute;
+  width: 317px;
+  height: 25px;
+  left: 40px;
+  top: 20px;
+  text-align: left;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272c39;
+}
